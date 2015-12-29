@@ -68,6 +68,9 @@ theme: yilia
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type: git
+- type: git
+  repo: https://gitcafe.com/xschao/xschao.git
+  branch: gitcafe-pages
+- type: git
   repo: https://github.com/uniquechao/uniquechao.github.io.git
   branch: master
